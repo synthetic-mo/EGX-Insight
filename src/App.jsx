@@ -9,6 +9,13 @@ function App() {
 
   return (
     <>
+    <header style={{ marginBottom: '30px' }}>
+        <h1 style={{ margin: '0 0 10px 0', color: '#1f2937' }}>Masr Market Watch</h1>
+        <p style={{ color: '#6b7280', margin: '0 0 8px 0' }}>Live tracking Egyptian Exchange (EGX) equities</p>
+        <p style={{ fontSize: '12px', color: '#9ca3af', margin: 0 }}>
+          Last updated: {new Date().toLocaleTimeString()}
+        </p>
+      </header>
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
