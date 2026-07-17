@@ -25,3 +25,5 @@ dist-ssr
 # Python Backend
 script/venv/
 script/stocks.db
+
+__pycache__/
